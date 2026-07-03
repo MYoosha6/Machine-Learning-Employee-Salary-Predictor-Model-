@@ -1,20 +1,57 @@
-# AI-Based Employee Salary Prediction System
+# Employee Salary Prediction System
+
+A Machine Learning project that predicts employee salaries based on:
+- Job Title
+- Experience Years
+- Education Level
+- Skills Count
+- Industry
+- Company Size
+- Location
+- Remote Work Status
+- Certifications
+
+## Features
+- Data preprocessing pipeline
+- Exploratory Data Analysis (EDA)
+- Multiple ML models comparison
+- Best model selection using R² score
+- Interactive Streamlit web interface
+
+## Models Used
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+## Best Model Performance
+| Metric | Value |
+|--------|-------|
+| R² Score | 0.9709 |
+| RMSE | 6364.54 |
+| MAE | 5048.54 |
+
+Best performing model: Random Forest Regressor.
 
 ## Project Structure
-- `data/`: Contains dataset files
-- `models/`: Contains trained models (future)
-- `outputs/`: Output reports and artifacts
-- `app/`: Web app files (future)
-- `src/`: Source code for the project
-- `main.py`: Entry point for project initialization and data inspection
+employee_salary_prediction/
+│
+├── app.py
+├── main.py
+├── src/
+├── models/
+├── outputs/
+├── data/
+└── requirements.txt
 
-## Setup
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+## Technologies Used
+- Python
+- Scikit-Learn
+- Pandas
+- NumPy
+- Streamlit
+- Matplotlib
+- Seaborn
 
-## Run
-```bash
-python main.py
-```
+## Author
+Yoosha
